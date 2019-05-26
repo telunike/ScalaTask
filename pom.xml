@@ -15,9 +15,9 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   </properties>
 
-  <dependencyManagement>
+<!--  <dependencyManagement>
     <dependencies>
-      <!-- Camel BOM -->
+      &lt;!&ndash; Camel BOM &ndash;&gt;
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-parent</artifactId>
@@ -26,9 +26,16 @@
         <type>pom</type>
       </dependency>
     </dependencies>
-  </dependencyManagement>
+  </dependencyManagement>-->
 
   <dependencies>
+
+    <!-- mlib-->
+    <dependency>
+      <groupId>org.apache.spark</groupId>
+      <artifactId>spark-mllib_2.11</artifactId>
+      <version>2.0.1</version>
+    </dependency>
 
     <dependency>
       <groupId>org.apache.camel</groupId>

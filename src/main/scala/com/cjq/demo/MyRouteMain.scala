@@ -1,12 +1,10 @@
 package com.cjq.demo
 
-import org.apache.camel.main.Main
-import org.apache.camel.scala.dsl.builder.RouteBuilderSupport
 
 /**
  * A Main to run Camel with MyRouteBuilder
  */
-object MyRouteMain extends RouteBuilderSupport {
+object MyRouteMain {
 
   def main(args: Array[String]) {
     /*val main = new Main()
