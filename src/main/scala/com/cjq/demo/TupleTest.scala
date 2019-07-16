@@ -1,4 +1,5 @@
 package com.cjq.demo
+
 import Array._
 
 object TupleTest {
@@ -12,12 +13,12 @@ object TupleTest {
     val it = Iterator("aaa", "bbb", "ccc")
     while (it.hasNext) {
       println(it.next())
+
+      val it1 = Iterator(1, 3, 5)
+      val it2 = Iterator(2, 6, 9)
+
+      println(it1.size + "---" + it2.max)
     }
 
-    val it1 = Iterator(1, 3, 5)
-    val it2 = Iterator(2, 6, 9)
-
-    println(it1.size + "---" + it2.max)
   }
-
 }
